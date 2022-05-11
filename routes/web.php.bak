@@ -20,7 +20,3 @@ Route::get('/', function () {
 Route::get('halo', function () {
     return "Selamat datang di tutorial laravel";
 });
-
-Route::get('blog', function () {
-	return view('blog');
-});
